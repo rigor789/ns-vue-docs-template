@@ -1,0 +1,16 @@
+{
+  "name": "nativescript-vue-docs-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwind build app.css -c ./tailwind.js -o ./dist/app.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^0.4.0"
+  }
+}

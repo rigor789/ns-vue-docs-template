@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NativeScript-Vue</title>
+    <link rel="stylesheet" href="dist/app.css">
+</head>
+<body>
+<div class="font-sans leading-normal">
+
+    <div class="border-t-8 border-green">
+        <div class="bg-blue-dark">
+            <div class="container flex items-center flex-wrap px-4 py-1 mx-auto">
+                <div class="w-1/4 md:flex-1">
+                    <img class="w-16 h-16" src="https://art.nativescript-vue.org/NativeScript-Vue-Green-White.svg"
+                         alt="">
+                </div>
+                <div class="w-1/2 md:w-auto text-center">
+                    <input class="w-full md:w-48 px-4 py-2 text-blue-lightest bg-blue-light rounded-full"
+                           type="text"
+                           placeholder="Search docs...">
+                </div>
+
+                <!-- Bars -->
+                <div class="w-1/4 md:hidden text-right">
+                    <div class="inline-block">
+                        <div class="w-6 h-2px bg-white mb-1"></div>
+                        <div class="w-6 h-2px bg-white mb-1"></div>
+                        <div class="w-6 h-2px bg-white"></div>
+                    </div>
+                </div>
+
+                <!-- Nav -->
+                <div class="-hidden flex flex-col md:flex-row w-full md:w-auto">
+                    <a href="#" class="no-underline text-blue-lightest md:ml-6 mr-4 py-4 md:py-0">Quick Start</a>
+                    <a href="#" class="no-underline text-blue-lightest mr-4 py-4 md:py-0">Guides</a>
+                    <a href="#" class="no-underline text-blue-lightest mr-4 py-4 md:py-0">API</a>
+                    <a href="#" class="no-underline text-blue-lightest py-4 md:py-0">Community</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Docs Nav -->
+        <div class="bg-grey-lighter p-4 md:hidden">
+            <select class="w-full p-2">
+                <optgroup label="Introduction">
+                    <option>About NativeScript-Vue</option>
+                </optgroup>
+                <optgroup label="Development">
+                    <option>Installing NativeScript</option>
+                    <option>Installing Vue</option>
+                    <option>Templates</option>
+                </optgroup>
+            </select>
+        </div>
+
+        <div class="md:bg-docs-gradient min-h-screen">
+            <div class="container mx-auto flex">
+                <div class="hidden md:block w-1/4">
+                    <div class="sidebar p-8">
+                        sidebar
+                    </div>
+                </div>
+                <div class="flex-1 bg-white min-h-screen">
+                    <!-- Content Area -->
+                    <div class="content p-8">
+                        content
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
